@@ -114,7 +114,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: joindevops/web:v1
+          image: korrai/web:v1
           imagePullPolicy:
             Always
             # envFrom:
